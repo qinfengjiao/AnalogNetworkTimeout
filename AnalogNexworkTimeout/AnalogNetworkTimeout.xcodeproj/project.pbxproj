@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FFC4AE2068CB12008F2210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4AD2068CB12008F2210 /* AppDelegate.m */; };
+		84FFC4B12068CB12008F2210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4B02068CB12008F2210 /* ViewController.m */; };
+		84FFC4B42068CB12008F2210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC4B22068CB12008F2210 /* Main.storyboard */; };
+		84FFC4B62068CB12008F2210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC4B52068CB12008F2210 /* Assets.xcassets */; };
+		84FFC4B92068CB12008F2210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC4B72068CB12008F2210 /* LaunchScreen.storyboard */; };
+		84FFC4BC2068CB12008F2210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4BB2068CB12008F2210 /* main.m */; };
+		84FFC4C62068CB12008F2210 /* AnalogNexworkTimeoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4C52068CB12008F2210 /* AnalogNexworkTimeoutTests.m */; };
+		84FFC4D12068CB12008F2210 /* AnalogNexworkTimeoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4D02068CB12008F2210 /* AnalogNexworkTimeoutUITests.m */; };
+		84FFC4E12068CC18008F2210 /* DetectionTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4E02068CC18008F2210 /* DetectionTimeout.m */; };
+		84FFC4E52068CC85008F2210 /* LTMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4E42068CC85008F2210 /* LTMessageView.m */; };
+		84FFC4E92068CD4A008F2210 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4E82068CD4A008F2210 /* MBProgressHUD.m */; };
+		84FFC4F82068CECE008F2210 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC4EB2068CECE008F2210 /* LICENSE */; };
+		84FFC4F92068CECE008F2210 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4EF2068CECE008F2210 /* ALView+PureLayout.m */; };
+		84FFC4FA2068CECE008F2210 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4F12068CECE008F2210 /* NSArray+PureLayout.m */; };
+		84FFC4FB2068CECE008F2210 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC4F32068CECE008F2210 /* NSLayoutConstraint+PureLayout.m */; };
+		84FFC4FC2068CECE008F2210 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC4F72068CECE008F2210 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FFC4C22068CB12008F2210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FFC4A12068CB11008F2210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FFC4A82068CB12008F2210;
+			remoteInfo = AnalogNexworkTimeout;
+		};
+		84FFC4CD2068CB12008F2210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FFC4A12068CB11008F2210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FFC4A82068CB12008F2210;
+			remoteInfo = AnalogNexworkTimeout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FFC4A92068CB12008F2210 /* AnalogNetworkTimeout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogNetworkTimeout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FFC4AC2068CB12008F2210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FFC4AD2068CB12008F2210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FFC4AF2068CB12008F2210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84FFC4B02068CB12008F2210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FFC4B32068CB12008F2210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FFC4B52068CB12008F2210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FFC4B82068CB12008F2210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FFC4BA2068CB12008F2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FFC4BB2068CB12008F2210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FFC4C12068CB12008F2210 /* AnalogNetworkTimeoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogNetworkTimeoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FFC4C52068CB12008F2210 /* AnalogNexworkTimeoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalogNexworkTimeoutTests.m; sourceTree = "<group>"; };
+		84FFC4C72068CB12008F2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FFC4CC2068CB12008F2210 /* AnalogNetworkTimeoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogNetworkTimeoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FFC4D02068CB12008F2210 /* AnalogNexworkTimeoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalogNexworkTimeoutUITests.m; sourceTree = "<group>"; };
+		84FFC4D22068CB12008F2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FFC4DF2068CC18008F2210 /* DetectionTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectionTimeout.h; sourceTree = "<group>"; };
+		84FFC4E02068CC18008F2210 /* DetectionTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectionTimeout.m; sourceTree = "<group>"; };
+		84FFC4E32068CC85008F2210 /* LTMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMessageView.h; sourceTree = "<group>"; };
+		84FFC4E42068CC85008F2210 /* LTMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMessageView.m; sourceTree = "<group>"; };
+		84FFC4E72068CD4A008F2210 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		84FFC4E82068CD4A008F2210 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		84FFC4EB2068CECE008F2210 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84FFC4EE2068CECE008F2210 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		84FFC4EF2068CECE008F2210 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		84FFC4F02068CECE008F2210 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		84FFC4F12068CECE008F2210 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		84FFC4F22068CECE008F2210 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		84FFC4F32068CECE008F2210 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		84FFC4F42068CECE008F2210 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		84FFC4F52068CECE008F2210 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		84FFC4F62068CECE008F2210 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		84FFC4F72068CECE008F2210 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FFC4A62068CB12008F2210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FFC4BE2068CB12008F2210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FFC4C92068CB12008F2210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FFC4A02068CB11008F2210 = {
+			isa = PBXGroup;
+			children = (
+				84FFC4AB2068CB12008F2210 /* AnalogNexworkTimeout */,
+				84FFC4C42068CB12008F2210 /* AnalogNexworkTimeoutTests */,
+				84FFC4CF2068CB12008F2210 /* AnalogNexworkTimeoutUITests */,
+				84FFC4AA2068CB12008F2210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FFC4AA2068CB12008F2210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4A92068CB12008F2210 /* AnalogNetworkTimeout.app */,
+				84FFC4C12068CB12008F2210 /* AnalogNetworkTimeoutTests.xctest */,
+				84FFC4CC2068CB12008F2210 /* AnalogNetworkTimeoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FFC4AB2068CB12008F2210 /* AnalogNexworkTimeout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4E62068CD4A008F2210 /* Vendor */,
+				84FFC4E22068CC85008F2210 /* MessageView */,
+				84FFC4DE2068CC18008F2210 /* detectionTimeout */,
+				84FFC4AC2068CB12008F2210 /* AppDelegate.h */,
+				84FFC4AD2068CB12008F2210 /* AppDelegate.m */,
+				84FFC4AF2068CB12008F2210 /* ViewController.h */,
+				84FFC4B02068CB12008F2210 /* ViewController.m */,
+				84FFC4B22068CB12008F2210 /* Main.storyboard */,
+				84FFC4B52068CB12008F2210 /* Assets.xcassets */,
+				84FFC4B72068CB12008F2210 /* LaunchScreen.storyboard */,
+				84FFC4BA2068CB12008F2210 /* Info.plist */,
+				84FFC4BB2068CB12008F2210 /* main.m */,
+			);
+			path = AnalogNexworkTimeout;
+			sourceTree = "<group>";
+		};
+		84FFC4C42068CB12008F2210 /* AnalogNexworkTimeoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4C52068CB12008F2210 /* AnalogNexworkTimeoutTests.m */,
+				84FFC4C72068CB12008F2210 /* Info.plist */,
+			);
+			path = AnalogNexworkTimeoutTests;
+			sourceTree = "<group>";
+		};
+		84FFC4CF2068CB12008F2210 /* AnalogNexworkTimeoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4D02068CB12008F2210 /* AnalogNexworkTimeoutUITests.m */,
+				84FFC4D22068CB12008F2210 /* Info.plist */,
+			);
+			path = AnalogNexworkTimeoutUITests;
+			sourceTree = "<group>";
+		};
+		84FFC4DE2068CC18008F2210 /* detectionTimeout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4DF2068CC18008F2210 /* DetectionTimeout.h */,
+				84FFC4E02068CC18008F2210 /* DetectionTimeout.m */,
+			);
+			path = detectionTimeout;
+			sourceTree = "<group>";
+		};
+		84FFC4E22068CC85008F2210 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4E32068CC85008F2210 /* LTMessageView.h */,
+				84FFC4E42068CC85008F2210 /* LTMessageView.m */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		84FFC4E62068CD4A008F2210 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4EA2068CECE008F2210 /* PureLayout */,
+				84FFC4E72068CD4A008F2210 /* MBProgressHUD.h */,
+				84FFC4E82068CD4A008F2210 /* MBProgressHUD.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		84FFC4EA2068CECE008F2210 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4EB2068CECE008F2210 /* LICENSE */,
+				84FFC4EC2068CECE008F2210 /* PureLayout */,
+				84FFC4F72068CECE008F2210 /* README.md */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		84FFC4EC2068CECE008F2210 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4ED2068CECE008F2210 /* PureLayout */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		84FFC4ED2068CECE008F2210 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				84FFC4EE2068CECE008F2210 /* ALView+PureLayout.h */,
+				84FFC4EF2068CECE008F2210 /* ALView+PureLayout.m */,
+				84FFC4F02068CECE008F2210 /* NSArray+PureLayout.h */,
+				84FFC4F12068CECE008F2210 /* NSArray+PureLayout.m */,
+				84FFC4F22068CECE008F2210 /* NSLayoutConstraint+PureLayout.h */,
+				84FFC4F32068CECE008F2210 /* NSLayoutConstraint+PureLayout.m */,
+				84FFC4F42068CECE008F2210 /* PureLayout+Internal.h */,
+				84FFC4F52068CECE008F2210 /* PureLayout.h */,
+				84FFC4F62068CECE008F2210 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FFC4A82068CB12008F2210 /* AnalogNetworkTimeout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FFC4D52068CB12008F2210 /* Build configuration list for PBXNativeTarget "AnalogNetworkTimeout" */;
+			buildPhases = (
+				84FFC4A52068CB12008F2210 /* Sources */,
+				84FFC4A62068CB12008F2210 /* Frameworks */,
+				84FFC4A72068CB12008F2210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalogNetworkTimeout;
+			productName = AnalogNexworkTimeout;
+			productReference = 84FFC4A92068CB12008F2210 /* AnalogNetworkTimeout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FFC4C02068CB12008F2210 /* AnalogNetworkTimeoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FFC4D82068CB12008F2210 /* Build configuration list for PBXNativeTarget "AnalogNetworkTimeoutTests" */;
+			buildPhases = (
+				84FFC4BD2068CB12008F2210 /* Sources */,
+				84FFC4BE2068CB12008F2210 /* Frameworks */,
+				84FFC4BF2068CB12008F2210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FFC4C32068CB12008F2210 /* PBXTargetDependency */,
+			);
+			name = AnalogNetworkTimeoutTests;
+			productName = AnalogNexworkTimeoutTests;
+			productReference = 84FFC4C12068CB12008F2210 /* AnalogNetworkTimeoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84FFC4CB2068CB12008F2210 /* AnalogNetworkTimeoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FFC4DB2068CB12008F2210 /* Build configuration list for PBXNativeTarget "AnalogNetworkTimeoutUITests" */;
+			buildPhases = (
+				84FFC4C82068CB12008F2210 /* Sources */,
+				84FFC4C92068CB12008F2210 /* Frameworks */,
+				84FFC4CA2068CB12008F2210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FFC4CE2068CB12008F2210 /* PBXTargetDependency */,
+			);
+			name = AnalogNetworkTimeoutUITests;
+			productName = AnalogNexworkTimeoutUITests;
+			productReference = 84FFC4CC2068CB12008F2210 /* AnalogNetworkTimeoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FFC4A12068CB11008F2210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84FFC4A82068CB12008F2210 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84FFC4C02068CB12008F2210 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84FFC4A82068CB12008F2210;
+					};
+					84FFC4CB2068CB12008F2210 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84FFC4A82068CB12008F2210;
+					};
+				};
+			};
+			buildConfigurationList = 84FFC4A42068CB11008F2210 /* Build configuration list for PBXProject "AnalogNetworkTimeout" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FFC4A02068CB11008F2210;
+			productRefGroup = 84FFC4AA2068CB12008F2210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FFC4A82068CB12008F2210 /* AnalogNetworkTimeout */,
+				84FFC4C02068CB12008F2210 /* AnalogNetworkTimeoutTests */,
+				84FFC4CB2068CB12008F2210 /* AnalogNetworkTimeoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FFC4A72068CB12008F2210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FFC4B92068CB12008F2210 /* LaunchScreen.storyboard in Resources */,
+				84FFC4B62068CB12008F2210 /* Assets.xcassets in Resources */,
+				84FFC4FC2068CECE008F2210 /* README.md in Resources */,
+				84FFC4F82068CECE008F2210 /* LICENSE in Resources */,
+				84FFC4B42068CB12008F2210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FFC4BF2068CB12008F2210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FFC4CA2068CB12008F2210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FFC4A52068CB12008F2210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FFC4B12068CB12008F2210 /* ViewController.m in Sources */,
+				84FFC4E92068CD4A008F2210 /* MBProgressHUD.m in Sources */,
+				84FFC4BC2068CB12008F2210 /* main.m in Sources */,
+				84FFC4F92068CECE008F2210 /* ALView+PureLayout.m in Sources */,
+				84FFC4FA2068CECE008F2210 /* NSArray+PureLayout.m in Sources */,
+				84FFC4FB2068CECE008F2210 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				84FFC4E52068CC85008F2210 /* LTMessageView.m in Sources */,
+				84FFC4AE2068CB12008F2210 /* AppDelegate.m in Sources */,
+				84FFC4E12068CC18008F2210 /* DetectionTimeout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FFC4BD2068CB12008F2210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FFC4C62068CB12008F2210 /* AnalogNexworkTimeoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FFC4C82068CB12008F2210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FFC4D12068CB12008F2210 /* AnalogNexworkTimeoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FFC4C32068CB12008F2210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FFC4A82068CB12008F2210 /* AnalogNetworkTimeout */;
+			targetProxy = 84FFC4C22068CB12008F2210 /* PBXContainerItemProxy */;
+		};
+		84FFC4CE2068CB12008F2210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FFC4A82068CB12008F2210 /* AnalogNetworkTimeout */;
+			targetProxy = 84FFC4CD2068CB12008F2210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FFC4B22068CB12008F2210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FFC4B32068CB12008F2210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FFC4B72068CB12008F2210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FFC4B82068CB12008F2210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FFC4D32068CB12008F2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84FFC4D42068CB12008F2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FFC4D62068CB12008F2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogNexworkTimeout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laxton.AnalogNexworkTimeout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FFC4D72068CB12008F2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogNexworkTimeout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laxton.AnalogNexworkTimeout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84FFC4D92068CB12008F2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogNexworkTimeoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laxton.AnalogNexworkTimeoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogNetworkTimeout.app/AnalogNetworkTimeout";
+			};
+			name = Debug;
+		};
+		84FFC4DA2068CB12008F2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogNexworkTimeoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laxton.AnalogNexworkTimeoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogNetworkTimeout.app/AnalogNetworkTimeout";
+			};
+			name = Release;
+		};
+		84FFC4DC2068CB12008F2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogNexworkTimeoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laxton.AnalogNexworkTimeoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnalogNexworkTimeout;
+			};
+			name = Debug;
+		};
+		84FFC4DD2068CB12008F2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogNexworkTimeoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laxton.AnalogNexworkTimeoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnalogNexworkTimeout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FFC4A42068CB11008F2210 /* Build configuration list for PBXProject "AnalogNetworkTimeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FFC4D32068CB12008F2210 /* Debug */,
+				84FFC4D42068CB12008F2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FFC4D52068CB12008F2210 /* Build configuration list for PBXNativeTarget "AnalogNetworkTimeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FFC4D62068CB12008F2210 /* Debug */,
+				84FFC4D72068CB12008F2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FFC4D82068CB12008F2210 /* Build configuration list for PBXNativeTarget "AnalogNetworkTimeoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FFC4D92068CB12008F2210 /* Debug */,
+				84FFC4DA2068CB12008F2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FFC4DB2068CB12008F2210 /* Build configuration list for PBXNativeTarget "AnalogNetworkTimeoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FFC4DC2068CB12008F2210 /* Debug */,
+				84FFC4DD2068CB12008F2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FFC4A12068CB11008F2210 /* Project object */;
+}
